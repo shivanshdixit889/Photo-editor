@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="../Css/index.css">
+</head>
+<body>
+    <!-- <img src="../Using Image/Select Image.png" alt=""> -->
+    <Div id="Box">
+        <Div id="hac">
+            <Div id="Header">
+                <h1>Photo Editor Using Html Css Js</h1>
+            </Div>
+            <Div id="select">
+                <Div id="i">
+                    <img src="../Using Image/Select Image.png" alt="Select Image" id="select" draggable="false">
+                </Div>
+                <Div id="choose_img">
+                    <button>choose Image <img src="../Using Image/upload.png" alt="" /></button>
+                    <input type="file" id="input" hidden>
+                </Div>
+            </Div>
+        </Div>
+        <Div id="tool" class="disable">
+            <Div id="Change">
+                <Div id="par">
+                    <Div id="name"><p>Brightness</p></Div>
+                    <Div id="per"><p>100%</p></Div>
+                </Div>
+                <Div id="Value">
+                    <input type="range" min="0" max="200" value="100">
+                </Div>
+            </Div>
+            <Div id="Filter">
+                <p>Filter</p>
+                <Div id="Brightness">
+                    <button title="Brightness" id="TOOLS_Button" class="size Active"><img src="../Using Image/brightness.png" alt="Brightness" id="Brightness" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Contrast">
+                    <button title="Contrast" id="TOOLS_Button" class="size"><img src="../Using Image/contrast.png" alt="Contrast" id="Contrast" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Saturate">
+                    <button title="Saturate" id="TOOLS_Button" class="size"><img src="../Using Image/Saturate.png" alt="Saturate" id="Saturate" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Invert">
+                    <button title="Invert" id="TOOLS_Button" class="size"><img src="../Using Image/invert.png" alt="Invert" id="Invert" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Blur">
+                    <button title="Blur" id="TOOLS_Button" class="size"><img src="../Using Image/blur.png" alt="Blur" id="Blur" class="Tool" draggable="false"></button>
+                </Div>
+            </Div>
+            <Div id="Rotate_And_Filp">
+                <p>Rotate And Filp</p>
+                <Div id="Rotate_Left">
+                    <button title="Rotate Left" id="TOOLS_Button" class="size"><img src="../Using Image/Rotate Left.png" alt="Rotate Left" id="Rotate_Left" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Rotate_Right">
+                    <button title="Rotate Right" id="TOOLS_Button" class="size"><img src="../Using Image/Rotate Right.png" alt="Rotate Right" id="Rotate_Right" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Filp-X">
+                    <button title="Filp X" id="TOOLS_Button" class="size"><img src="../Using Image/flip.png" alt="Flip X" id="Filp_X" class="Tool" draggable="false"></button>
+                </Div>
+                <Div id="Filp-Y">
+                    <button title="Filp Y" id="TOOLS_Button" class="size_y"><img src="../Using Image/flip.png" alt="Flip Y" id="Filp_Y" class="Tool" draggable="false"></button>
+                </Div>
+            </Div>
+            <Div id="Image-Editings">
+                <Div id="Reset">
+                    <button id="Reset-filters">Reset Filters</button>
+                </Div>
+                <Div id="Save">
+                    <button id="Save-Image">Save Image</button>
+                </Div>
+            </Div>
+        </Div>
+    </Div>
+    <script src="../Js/Index.js"></script>
+</body>
+</html>
