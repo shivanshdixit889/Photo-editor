@@ -1,0 +1,141 @@
+.size
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.Tool
+{
+    width: 30px;
+    height: 30px;
+}
+.disable
+{
+    pointer-events: none;
+    opacity: 50%;
+}
+.size_y
+{
+    transform: rotate(-90deg);
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.Active
+{
+    background-color: rgb(156, 243, 255);
+    border-radius: 90px;
+}
+#Filter
+{
+    display: flex;
+}
+#Rotate_And_Filp
+{
+    display: flex;
+}
+#Rotate_And_Filp button
+{
+    margin-left: 10px;
+}
+#par div
+{
+    display: flex;
+}
+#par
+{
+    display: flex;
+}
+#per
+{
+    margin-left: auto;
+}
+#Box
+{
+    margin-left: 397px;
+    border: 1px solid rgb(218 218 218);
+    width: fit-content;
+}
+#Value input
+{
+    accent-color: orange;
+    width: 431px;
+}
+#select
+{
+    width: 123px;
+    height: 123px;
+}
+#Filter
+{
+    border: 1px solid rgb(218 218 218);
+}
+#hac
+{
+    border: 1px solid rgb(218 218 218);
+}
+#Rotate_And_Filp
+{
+    border: 1px solid rgb(218 218 218);
+}
+#i
+{
+    margin-left: 143px;
+}
+#choose_img
+{
+    margin-left: 128px;
+    width: 169px;
+}
+#Image-Editings
+{
+    display: flex;
+}
+#choose_img button
+{
+    background-color: orange;
+    border: 2px outset black;
+    display: flex;
+    align-items: center;
+    transition-duration: 900ms;
+}
+#choose_img button:hover
+{
+    background-color: rgb(0, 255, 42);
+    color: wheat;
+    border: 2px outset rgb(0, 195, 255);
+}
+#tool
+{
+    margin-top: 47px;
+}
+#Reset button
+{
+    background-color: green;
+    border: 3px outset black;
+    border-radius: 90px;
+    transition-duration: 700ms;
+}
+#Reset button:hover
+{
+    background-color: pink;
+    border: 3px outset blue;
+    border-radius: 9px;
+}
+#Save button
+{
+    background-color: white;
+    border: 3px outset blueviolet;
+    border-radius: 90px;
+    transition-duration: 700ms;
+}
+#Save button:hover
+{
+    background-color: pink;
+    border: 3px outset blue;
+    border-radius: 9px;
+}
